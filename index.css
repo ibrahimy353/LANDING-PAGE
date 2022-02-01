@@ -1,36 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-.body{
-    background-color: 76686a;
-    height: 100%;
-    width: 100%;
-    
-}
-.container{
-
-    background-color: 76686a;
+.{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: blue;
 }
 
-.wave-container {  
-    height: 200px;
-    background-color: rgba(2, 28, 28, 0.84);
-    position: relative;
-  }
+li, a, button{
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: darkgreen;
   
-  .wave-container::before {   
-    content: "";
-    width: 100%;
-    height: 44px;
-    position: absolute;
-    bottom: -0.3%;
-    left: 0;
-    background-size: auto;
-    background-repeat: repeat no-repeat;
-    background-position: 48vw bottom;
-    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  115' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 84L50 79C100 74 200 63 300 43C400 22 500 -9 600 2C700 12 800 63 900 84C1000 105 1100 94 1150 89L1200 84V115H1150C1100 115 1000 115 900 115C800 115 700 115 600 115C500 115 400 115 300 115C200 115 100 115 50 115H0V84Z' fill='%232b1607'/></svg>");
-  }
-  
-  @media(max-width:1000px) {
-    .wave-container::before {    
-      height: 22px
-    }  
-  }
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
