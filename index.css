@@ -2,8 +2,8 @@
 
 *{
   box-sizing: border-box;
-  height: 100px; 
-  background-image: linear-gradient( #bdc3c7, #2c3e50);
+  height: 120px; 
+  background-image: linear-gradient( yellow, white);
   background-repeat: no-repeat;
 }
 
