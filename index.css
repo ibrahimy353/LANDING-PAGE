@@ -3,7 +3,7 @@
 *{
   box-sizing: border-box;
   height: 120px; 
-  background-image: linear-gradient( yellow, white);
+  background-image: linear-gradient(white, black);
   background-repeat: no-repeat;
 }
 
@@ -23,6 +23,8 @@ header{
   align-items: center;
   padding: 30px 10%;
 }
+
+
 .logo{
    cursor: pointer;
    margin-right: auto;
