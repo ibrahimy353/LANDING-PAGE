@@ -3,7 +3,8 @@
 *{
   box-sizing: border-box;
   height: 120px; 
-  background-image: linear-gradient(white, black);
+  background-image: linear-gradient(to right, rgba(255,0,0,0), gold);
+
   background-repeat: no-repeat;
 }
 
